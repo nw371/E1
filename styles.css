@@ -1,40 +1,13 @@
-html {
-    height:100%;
+.header {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
 }
-
-body {
-    max-width: 80%;
-    margin: auto;
+.header * {
+    display: inline;
 }
-
-.header{
-    background-color: gray;
-    height:100%;
-}
-
-navigation{
-    float: right;
-    height: 100%;
-}
-
-navigation a{
-    height: 100%;
-    display: table;
-    padding: 0px 20px;
-    float: right;
-    background-color: #101010;
-}
-
-navigation a li{
-    vertical-align: middle;
-    display: table-cell;
-    font-size: 20px;
-    color: white;
-}
-
-navigation a:hover{
-    background-color: gray;
-    color: #101010;
-}
-
-
