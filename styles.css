@@ -38,6 +38,19 @@ body {
     margin-top: 80px;
     padding: 30px;
 }
+.content {
+    display: block;
+}
+#text{
+    float: right;
+    width:
+}
+
+#picture{
+    width: 375px;
+    height: 250px;
+    float: left;
+}
 html {
     max-width: 80%;
 }
