@@ -1,0 +1,40 @@
+html {
+    height:100%;
+}
+
+body {
+    max-width: 80%;
+    margin: auto;
+}
+
+.header{
+    background-color: gray;
+    height:100%;
+}
+
+navigation{
+    float: right;
+    height: 100%;
+}
+
+navigation a{
+    height: 100%;
+    display: table;
+    padding: 0px 20px;
+    float: right;
+    background-color: #101010;
+}
+
+navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+}
+
+navigation a:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+
