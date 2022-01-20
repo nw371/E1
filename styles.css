@@ -25,6 +25,7 @@
 .navigation {
     float: right;
     vertical-align: middle;
+    horizontal-align: right;
 }
 .navigation a:hover{
     background-color: gray;
@@ -41,15 +42,13 @@ body {
 .content {
     display: block;
 }
-#text{
-    float: right;
-    width:
-}
+
 
 #picture{
     width: 375px;
     height: 250px;
     float: left;
+    padding: 0 20px 20px 20px;
 }
 html {
     max-width: 80%;
